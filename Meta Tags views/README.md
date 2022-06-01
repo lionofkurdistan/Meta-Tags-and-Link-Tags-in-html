@@ -4,7 +4,7 @@
 
 # Table of Contents
 - [Basic_HTML_Meta_Tags](#BasicHTMLMetaTags)
-- [OpenGraph_Meta_Tags](#OpenGraph Meta Tags)
+- [OpenGraph_Meta_Tags](#OpenGraphMetaTags)
 - [Social](#social)
   - [Facebook Open Graph](#facebook-open-graph)
   - [Twitter Card](#twitter-card)
@@ -15,7 +15,7 @@
   - [OEmbed](#oembed)
   - [QQ/Wechat](#qqwechat)
 
-# Basic HTML Meta Tags
+# BasicHTMLMetaTags
 
 ``` html
 <meta name="keywords" content="your, tags"/>
@@ -47,7 +47,7 @@
 <meta http-equiv="Cache-Control" content="no-cache">
 ```
 
-# OpenGraph Meta Tags
+# OpenGraphMetaTags
 
 ``` html
 <meta name="og:title" content="The Rock"/>
