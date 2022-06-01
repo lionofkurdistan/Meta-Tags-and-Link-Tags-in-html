@@ -80,104 +80,89 @@
 <meta property="og:audio:type" content="application/mp3" />
 ```
 
-## Create Custom Meta Tags
+## Social
 
-Use custom meta tags to store data that you need in javascript, instead of hard-coding that data into your javascript.  I store my Google Analytics code in meta tags.  Here's some examples:
-
-``` html
-<meta name="google-analytics" content="1-AHFKALJ"/>
-<meta name="disqus" content="abcdefg"/>
-<meta name="uservoice" content="asdfasdf"/>
-<meta name="mixpanel" content="asdfasdf"/>
-```
-
-## Company/Service Meta Tags
-
-#### ClaimID
-
-``` html
-<meta name="microid" content="mailto+http:sha1:e6058ed7fca4a1921cq91d7f1f3b8736cd3cc1g7" />
-```
-    
-#### Apple Meta Tags
-
-``` html
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta content="yes" name="apple-touch-fullscreen" />
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="format-detection" content="telephone=no">
-<meta name="viewport" content="width = 320, initial-scale = 2.3, user-scalable = no">
-```
-
-#### Internet Explorer Meta Tags
-
-``` html
-<meta http-equiv="Page-Enter" content="RevealTrans(Duration=2.0,Transition=2)" />
-<meta http-equiv="Page-Exit" content="RevealTrans(Duration=3.0,Transition=12)" />
-<meta name="mssmarttagspreventparsing" content="true">
-<meta http-equiv="X-UA-Compatible" content="chrome=1">
-<meta name="msapplication-starturl" content="http://blog.reybango.com/about/"/>
-<meta name="msapplication-window" content="width=800;height=600"/>
-<meta name="msapplication-navbutton-color" content="red"/>
-<meta name="application-name" content="Rey Bango Front-end Developer"/>
-<meta name="msapplication-tooltip" content="Launch Rey Bango's Blog"/>
-<meta name="msapplication-task" content="name=About;action-uri=/about/;icon-uri=/images/about.ico" />
-<meta name="msapplication-task" content="name=The Big List;action-uri=/the-big-list-of-javascript-css-and-html-development-tools-libraries-projects-and-books/;icon-uri=/images/list_links.ico" />
-<meta name="msapplication-task" content="name=jQuery Posts;action-uri=/category/jquery/;icon-uri=/images/jquery.ico" />
-<meta name="msapplication-task" content="name=Start Developing;action-uri=/category/javascript/;icon-uri=/images/script.ico" />
-<link rel="shortcut icon" href="/images/favicon.ico" />
-```
-
-#### TweetMeme Meta Tags
-
-``` html
-<meta name="tweetmeme-title" content="Retweet Button Explained" />
-```
-
-#### Blog Catalog Meta Tags
-
-``` html
-<meta name="blogcatalog" />
-```
-
-#### Rails Meta Tags
-
-``` html
-<meta name="csrf-param" content="authenticity_token"/>
-<meta name="csrf-token" content="/bZVwvomkAnwAI1Qd37lFeewvpOIiackk9121fFwWwc="/>
-```
-
-#### Apple Tags
-
-``` html
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="format-detection" content="telephone=no">
-<meta name= "viewport" content = "width = 320, initial-scale = 2.3, user-scalable = no">
-<meta name= "viewport" content = "width = device-width">
-<meta name = "viewport" content = "initial-scale = 1.0">
-<meta name = "viewport" content = "initial-scale = 2.3, user-scalable = no">
-<link rel="apple-touch-icon" href="touch-icon-iphone.png" />
-<link rel="apple-touch-icon" sizes="72x72" href="touch-icon-ipad.png" />
-<link rel="apple-touch-icon" sizes="114x114" href="touch-icon-iphone4.png" />
-<link rel="apple-touch-startup-image" href="/startup.png">
-
-<link rel="apple-touch-icon" type="image/png" href="/apple-touch-icon.png" />
-```
-    
-
-## Twitter Cards Meta Tags
+### Facebook Open Graph
 ```html
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="#url">
-<meta property="twitter:title" content="#title">
-<meta property="twitter:description" content="#description">
-<meta property="twitter:image" content="#">
+<meta property="fb:app_id" content="123456789">
+<meta property="og:url" content="https://example.com/page.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Content Title">
+<meta property="og:image" content="https://example.com/image.jpg">
+<meta property="og:image:alt" content="A description of what is in the image (not a caption)">
+<meta property="og:description" content="Description Here">
+<meta property="og:site_name" content="Site Name">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="">
 ```
-## Other Resources
 
-- [Dublic Core Meta Tags](http://www.seoconsultants.com/meta-tags/dublin/)
-- [Apple Meta Tags](http://developer.apple.com/safari/library/documentation/appleapplications/reference/safarihtmlref/articles/metatags.html)
-- [OpenGraph Meta Tags](http://opengraphprotocol.org/)
-- [Link Tag Meaning](http://intertwingly.net/wiki/pie/LinkTagMeaning)
-- [Google Chrome HTML5 Tags](http://www.html5rocks.com/)
+### Twitter Card
+```html
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@site_account">
+<meta name="twitter:creator" content="@individual_account">
+<meta name="twitter:url" content="https://example.com/page.html">
+<meta name="twitter:title" content="Content Title">
+<meta name="twitter:description" content="Content description less than 200 characters">
+<meta name="twitter:image" content="https://example.com/image.jpg">
+<meta name="twitter:image:alt" content="A text description of the image conveying the essential nature of an image to users who are visually impaired. Maximum 420 characters.">
+```
+
+### Twitter Privacy
+
+```html
+<!-- disallow Twitter from using your site's info for personalization purposes -->
+<meta name="twitter:dnt" content="on">
+```
+
+### Schema.org
+
+```html
+<html lang="" itemscope itemtype="https://schema.org/Article">
+    <head>
+      <link rel="author" href="">
+      <link rel="publisher" href="">
+      <meta itemprop="name" content="Content Title">
+      <meta itemprop="description" content="Content description less than 200 characters">
+      <meta itemprop="image" content="https://example.com/image.jpg">
+```
+
+### Pinterest
+
+```html
+<meta name="pinterest" content="nopin" description="Sorry, you can't save from my website!">
+```
+
+### Facebook Instant Articles
+
+```html
+<meta charset="utf-8">
+<meta property="op:markup_version" content="v1.0">
+
+<!-- The URL of the web version of your article -->
+<link rel="canonical" href="https://example.com/article.html">
+
+<!-- The style to be used for this article -->
+<meta property="fb:article_style" content="myarticlestyle">
+```
+
+### OEmbed
+
+```html
+<link rel="alternate" type="application/json+oembed"
+  href="https://example.com/services/oembed?url=http%3A%2F%2Fexample.com%2Ffoo%2F&amp;format=json"
+  title="oEmbed Profile: JSON">
+<link rel="alternate" type="text/xml+oembed"
+  href="https://example.com/services/oembed?url=http%3A%2F%2Fexample.com%2Ffoo%2F&amp;format=xml"
+  title="oEmbed Profile: XML">
+```
+
+### QQ/Wechat
+
+Users share web pages to qq wechat will have a formatted message
+
+```html
+<meta itemprop="name" content="share title">
+<meta itemprop="image" content="http://imgcache.qq.com/qqshow/ac/v4/global/logo.png">
+<meta name="description" itemprop="description" content="share content">
+```
