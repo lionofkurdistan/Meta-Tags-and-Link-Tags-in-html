@@ -24,7 +24,7 @@
   - [QQ Mobile Browser](#qq-mobile-browser)
   - [UC Mobile Browser](#uc-mobile-browser)
 -[Mobile](#Mobile)
-  - [360 Browser](#360-browser)
+  - [#Ios](Ios)
   - [QQ Mobile Browser](#qq-mobile-browser)
   - [UC Mobile Browser](#uc-mobile-browser)
 # BasicHTMLMetaTags
@@ -376,7 +376,7 @@ Minimum required xml markup for `browserconfig.xml`:
 <meta name="csrf-token" content="/bZVwvomkAnwAI1Qd37lFeewvpOIiackk9121fFwWwc="/>
 ```
 ## Mobile 
-# Ios
+#Ios
 ```html
 <meta property="al:ios:url" content="applinks://docs">
 <meta property="al:ios:app_store_id" content="12345">
