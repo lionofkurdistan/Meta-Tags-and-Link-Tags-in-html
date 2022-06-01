@@ -174,3 +174,87 @@
 <meta itemprop="image" content="http://imgcache.qq.com/qqshow/ac/v4/global/logo.png">
 <meta name="description" itemprop="description" content="share content">
 ```
+
+## Browsers / Platforms
+
+### Apple iOS
+
+```html
+<!-- Smart App Banner -->
+<meta name="apple-itunes-app" content="app-id=APP_ID,affiliate-data=AFFILIATE_ID,app-argument=SOME_TEXT">
+
+<!-- Disable automatic detection and formatting of possible phone numbers -->
+<meta name="format-detection" content="telephone=no">
+
+<!-- Launch Icon (180x180px or larger) -->
+<link rel="apple-touch-icon" href="/path/to/apple-touch-icon.png">
+
+<!-- Launch Screen Image -->
+<link rel="apple-touch-startup-image" href="/path/to/launch.png">
+
+<!-- Launch Icon Title -->
+<meta name="apple-mobile-web-app-title" content="App Title">
+
+<!-- Enable standalone (full-screen) mode -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+<!-- Status bar appearance (has no effect unless standalone mode is enabled) -->
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<!-- iOS app deep linking -->
+<meta name="apple-itunes-app" content="app-id=APP-ID, app-argument=http/url-sample.com">
+<link rel="alternate" href="ios-app://APP-ID/http/url-sample.com">
+```
+
+
+### Google Android
+
+```html
+<meta name="theme-color" content="#E64545">
+
+<!-- Add to home screen -->
+<meta name="mobile-web-app-capable" content="yes">
+<!-- More info: https://developer.chrome.com/multidevice/android/installtohomescreen -->
+
+<!-- Android app deep linking -->
+<meta name="google-play-app" content="app-id=package-name">
+<link rel="alternate" href="android-app://package-name/http/url-sample.com">
+```
+
+### Google Chrome
+
+```html
+<link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/APP_ID">
+
+<!-- Disable translation prompt -->
+<meta name="google" content="notranslate">
+```
+
+### Microsoft Internet Explorer
+
+```html
+<!-- Force IE 8/9/10 to use its latest rendering engine -->
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<!-- Disable automatic detection and formatting of possible phone numbers by Skype Toolbar browser extension -->
+<meta name="skype_toolbar" content="skype_toolbar_parser_compatible">
+
+<!-- Windows Tiles -->
+<meta name="msapplication-config" content="/browserconfig.xml">
+```
+
+Minimum required xml markup for `browserconfig.xml`:
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+   <msapplication>
+     <tile>
+        <square70x70logo src="small.png"/>
+        <square150x150logo src="medium.png"/>
+        <wide310x150logo src="wide.png"/>
+        <square310x310logo src="large.png"/>
+     </tile>
+   </msapplication>
+</browserconfig>
+```
