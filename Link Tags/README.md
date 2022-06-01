@@ -4,7 +4,7 @@
 
 
 # Table of Contents
-- [Link tags](#Linktags)
+- [Link tags](https://github.com/lionofkurdistan/Meta_Tags_and_Link-_Tags_in_html/blob/main/Link%20Tags/README.md#link-tags)
 - [Icons tages](#Iconstages)
 ## Link tags
 
