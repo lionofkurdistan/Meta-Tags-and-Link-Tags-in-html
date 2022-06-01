@@ -1,11 +1,11 @@
 
-## Link tags in html
+# Link tags in html
 > A simple guide to HTML <>
 
-## Table of Contents
+# Table of Contents
 - [Basic HTML Meta Tags1](#BasicHTMLMetaTags)
 
-## Basic HTML Meta Tags
+# Basic HTML Meta Tags
 
 ``` html
 <meta name="keywords" content="your, tags"/>
