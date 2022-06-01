@@ -6,30 +6,10 @@
 - [Basic_HTML_Meta_Tags](#BasicHTMLMetaTags)
 - [OpenGraph_Meta_Tags](#OpenGraphMetaTags)
 - [Social](#social)
-  - [Facebook Open Graph](#facebook-open-graph)
-  - [Twitter Card](#twitter-card)
-  - [Twitter Privacy](#twitter-privacy)
-  - [Schema.org](#schemaorg)
-  - [Pinterest](#pinterest)
-  - [Facebook Instant Articles](#facebook-instant-articles)
-  - [OEmbed](#oembed)
-  - [QQ/Wechat](#qqwechat)
 - [Browsers / Platforms](#browsers--platforms)
-  - [Apple iOS](#apple-ios)
-  - [Google Android](#google-android)
-  - [Google Chrome](#google-chrome)
-  - [Microsoft Internet Explorer](#microsoft-internet-explorer)
 - [Browsers (Chinese)](#browsers-chinese)
-  - [360 Browser](#360-browser)
-  - [QQ Mobile Browser](#qq-mobile-browser)
-  - [UC Mobile Browser](#uc-mobile-browser)
--[Mobile](#Mobile)
-  - [#Ios](Ios)
-  - [QQ Mobile Browser](#qq-mobile-browser)
-  - [UC Mobile Browser](#uc-mobile-browser)
-# BasicHTMLMetaTags
-
-
+- [Mobile](#Mobile)
+- [Company/Service Meta Tags](## Company/Service Meta Tags)
 # BasicHTMLMetaTags
 
 ``` html
