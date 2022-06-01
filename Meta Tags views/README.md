@@ -9,7 +9,7 @@
 - [Browsers / Platforms](#browsers--platforms)
 - [Browsers (Chinese)](#browsers-chinese)
 - [Mobile](#Mobile)
-- [Company/Service Meta Tags](#Company/ServiceMetaTags)
+- [Company/ServiceMetaTags](#Company/ServiceMetaTags)
 # BasicHTMLMetaTags
 
 ``` html
