@@ -75,24 +75,7 @@
 <link rel="prefetch" href="https://www.example.com/">
 <link rel="prerender" href="https://example.com/">
 <link rel="preload" href="image.png" as="image">
-```
-## Icons tages
-```html
-<!-- For IE 10 and below -->
-<!-- Place favicon.ico in the root directory - no tag necessary -->
 
-<!-- Icon in the highest resolution we need it for -->
-<link rel="icon" sizes="192x192" href="/path/to/icon.png">
-
-<!-- Apple Touch Icon (reuse 192px icon.png) -->
-<link rel="apple-touch-icon" href="/path/to/apple-touch-icon.png">
-
-<!-- Safari Pinned Tab Icon -->
-<link rel="mask-icon" href="/path/to/icon.svg" color="blue">
-```
-## HTML Link 
-
-``` html
 <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/martini" />
 <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
 <link rel="fluid-icon" type="image/png" href="/fluid-icon.png" />
@@ -116,4 +99,20 @@
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://smallbiztrends.com/xmlrpc.php?rsd" />
 <link rel="pingback" href="http://smallbiztrends.com/xmlrpc.php" />
 <link media="only screen and (max-device-width: 480px)" href="http://wordpress.org/style/iphone.css" type="text/css" rel="stylesheet" />
+```
+
+
+## Icons tages
+```html
+<!-- For IE 10 and below -->
+<!-- Place favicon.ico in the root directory - no tag necessary -->
+
+<!-- Icon in the highest resolution we need it for -->
+<link rel="icon" sizes="192x192" href="/path/to/icon.png">
+
+<!-- Apple Touch Icon (reuse 192px icon.png) -->
+<link rel="apple-touch-icon" href="/path/to/apple-touch-icon.png">
+
+<!-- Safari Pinned Tab Icon -->
+<link rel="mask-icon" href="/path/to/icon.svg" color="blue">
 ```
