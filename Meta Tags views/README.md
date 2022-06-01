@@ -179,8 +179,6 @@
 
 ### Apple iOS
 
-
-
 ```html
 <!-- Smart App Banner -->
 <meta name="apple-itunes-app" content="app-id=APP_ID,affiliate-data=AFFILIATE_ID,app-argument=SOME_TEXT">
@@ -307,7 +305,7 @@ Minimum required xml markup for `browserconfig.xml`:
 <!-- Disable the UC browser's feature of "scaling font up when there are many words in this document" -->
 <meta name="wap-font-scale" content="no">
 ```
-## Company/ServiceMetaTags
+##Company/ServiceMetaTags
 
 #### ClaimID
 
