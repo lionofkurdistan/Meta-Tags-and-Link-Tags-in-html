@@ -19,7 +19,10 @@
   - [Google Android](#google-android)
   - [Google Chrome](#google-chrome)
   - [Microsoft Internet Explorer](#microsoft-internet-explorer)
-
+- [Browsers (Chinese)](#browsers-chinese)
+  - [360 Browser](#360-browser)
+  - [QQ Mobile Browser](#qq-mobile-browser)
+  - [UC Mobile Browser](#uc-mobile-browser)
 # BasicHTMLMetaTags
 
 ``` html
@@ -262,4 +265,51 @@ Minimum required xml markup for `browserconfig.xml`:
      </tile>
    </msapplication>
 </browserconfig>
+```
+
+## Browsers (Chinese)
+
+### 360 Browser
+
+```html
+<!-- Select rendering engine order -->
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+```
+
+### QQ Mobile Browser
+
+```html
+<!-- Locks the screen into the specified orientation -->
+<meta name="x5-orientation" content="landscape/portrait">
+
+<!-- Display this document in fullscreen -->
+<meta name="x5-fullscreen" content="true">
+
+<!-- Document will be displayed in "application mode" (fullscreen, etc.) -->
+<meta name="x5-page-mode" content="app">
+```
+
+### UC Mobile Browser
+
+```html
+<!-- Locks the screen into the specified orientation -->
+<meta name="screen-orientation" content="landscape/portrait">
+
+<!-- Display this document in fullscreen -->
+<meta name="full-screen" content="yes">
+
+<!-- UC browser will display images even if in "text mode" -->
+<meta name="imagemode" content="force">
+
+<!-- Document will be displayed in "application mode"(fullscreen, forbidding gesture, etc.) -->
+<meta name="browsermode" content="application">
+
+<!-- Disabled the UC browser's "night mode" for this document -->
+<meta name="nightmode" content="disable">
+
+<!-- Simplify the document to reduce data transfer -->
+<meta name="layoutmode" content="fitscreen">
+
+<!-- Disable the UC browser's feature of "scaling font up when there are many words in this document" -->
+<meta name="wap-font-scale" content="no">
 ```
