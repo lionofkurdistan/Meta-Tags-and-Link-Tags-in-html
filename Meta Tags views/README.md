@@ -314,3 +314,9 @@ Minimum required xml markup for `browserconfig.xml`:
 <meta name="wap-font-scale" content="no">
 ```
 # Mobile 
+Ios
+```html
+<meta property="al:ios:url" content="applinks://docs">
+<meta property="al:ios:app_store_id" content="12345">
+<meta property="al:ios:app_name" content="App Links">
+```
