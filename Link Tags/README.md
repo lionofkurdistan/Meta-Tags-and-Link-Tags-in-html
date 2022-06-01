@@ -76,5 +76,5 @@
 <link rel="prerender" href="https://example.com/">
 <link rel="preload" href="image.png" as="image">
 ```
-#Icons tages
+## Icons tages
 
