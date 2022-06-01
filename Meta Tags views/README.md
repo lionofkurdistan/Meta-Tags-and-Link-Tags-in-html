@@ -9,7 +9,7 @@
 - [Browsers / Platforms](#browsers--platforms)
 - [Browsers (Chinese)](#browsers-chinese)
 - [Mobile](#Mobile)
-- [Company/Service Meta Tags](#Company/Service Meta Tags)
+- [Company/Service Meta Tags](##Company/ServiceMetaTags)
 # BasicHTMLMetaTags
 
 ``` html
@@ -307,7 +307,7 @@ Minimum required xml markup for `browserconfig.xml`:
 <!-- Disable the UC browser's feature of "scaling font up when there are many words in this document" -->
 <meta name="wap-font-scale" content="no">
 ```
-## Company/Service Meta Tags
+## Company/ServiceMetaTags
 
 #### ClaimID
 
