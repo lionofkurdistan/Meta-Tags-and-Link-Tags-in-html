@@ -3,7 +3,7 @@
 > A simple guide to HTML <Meta>
 
 # Table of Contents
-- [Basic_HTML_Meta_Tags](#Basic HTML Meta Tags)
+- [Basic_HTML_Meta_Tags](#BasicHTMLMetaTags)
 - [OpenGraph_Meta_Tags](#OpenGraph Meta Tags)
 - [Social](#social)
   - [Facebook Open Graph](#facebook-open-graph)
