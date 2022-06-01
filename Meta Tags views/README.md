@@ -1,9 +1,19 @@
 
-# Link tags in html
-> A simple guide to HTML <>
+# Meta tags in html
+> A simple guide to HTML <Meta>
 
 # Table of Contents
-- [Basic HTML Meta Tags1](#BasicHTMLMetaTags)
+- [Basic_HTML_Meta_Tags](#Basic HTML Meta Tags)
+- [OpenGraph_Meta_Tags](#OpenGraph Meta Tags)
+- [Social](#social)
+  - [Facebook Open Graph](#facebook-open-graph)
+  - [Twitter Card](#twitter-card)
+  - [Twitter Privacy](#twitter-privacy)
+  - [Schema.org](#schemaorg)
+  - [Pinterest](#pinterest)
+  - [Facebook Instant Articles](#facebook-instant-articles)
+  - [OEmbed](#oembed)
+  - [QQ/Wechat](#qqwechat)
 
 # Basic HTML Meta Tags
 
@@ -37,7 +47,7 @@
 <meta http-equiv="Cache-Control" content="no-cache">
 ```
 
-## OpenGraph Meta Tags
+# OpenGraph Meta Tags
 
 ``` html
 <meta name="og:title" content="The Rock"/>
