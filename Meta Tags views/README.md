@@ -159,8 +159,6 @@
 
 ### QQ/Wechat
 
-Users share web pages to qq wechat will have a formatted message
-
 ```html
 <meta itemprop="name" content="share title">
 <meta itemprop="image" content="http://imgcache.qq.com/qqshow/ac/v4/global/logo.png">
