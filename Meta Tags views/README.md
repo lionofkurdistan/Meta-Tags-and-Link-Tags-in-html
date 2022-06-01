@@ -9,7 +9,7 @@
 - [Browsers / Platforms](#browsers--platforms)
 - [Browsers (Chinese)](#browsers-chinese)
 - [Mobile](#Mobile)
-- [Company/ServiceMetaTags](#Company/ServiceMetaTags)
+- [Company/ServiceMetaTags](https://github.com/lionofkurdistan/Meta_Tags_and_Link-_Tags_in_html/blob/main/Meta%20Tags%20views/README.md#companyservicemetatags)
 # BasicHTMLMetaTags
 
 ``` html
