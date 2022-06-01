@@ -1,6 +1,6 @@
 
 # Meta tags in html
-> A simple guide to HTML <Meta>
+> A simple guide to HTML `<Meta>`
 
 # Table of Contents
 - [Basic_HTML_Meta_Tags](#BasicHTMLMetaTags)
