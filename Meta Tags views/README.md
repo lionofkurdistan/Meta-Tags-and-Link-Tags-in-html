@@ -3,7 +3,7 @@
 > A simple guide to HTML <>
 
 ## Table of Contents
-
+- [Basic HTML Meta Tags1](## Basic HTML Meta Tags)
 
 ## Basic HTML Meta Tags
 
