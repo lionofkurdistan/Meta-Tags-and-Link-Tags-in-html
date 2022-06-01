@@ -5,7 +5,7 @@
 
 # Table of Contents
 - [Link tags](#Linktags)
-
+- [Icons tages](#Icons tages)
 ## Link tags
 
 ```html
@@ -76,4 +76,5 @@
 <link rel="prerender" href="https://example.com/">
 <link rel="preload" href="image.png" as="image">
 ```
+#Icons tages
 
