@@ -5,7 +5,7 @@
 
 # Table of Contents
 - [Link tags](#Linktags)
-- [Icons tages](#Icons tages)
+- [Icons tages](#Iconstages)
 ## Link tags
 
 ```html
