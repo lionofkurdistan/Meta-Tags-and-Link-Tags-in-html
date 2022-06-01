@@ -14,6 +14,11 @@
   - [Facebook Instant Articles](#facebook-instant-articles)
   - [OEmbed](#oembed)
   - [QQ/Wechat](#qqwechat)
+- [Browsers / Platforms](#browsers--platforms)
+  - [Apple iOS](#apple-ios)
+  - [Google Android](#google-android)
+  - [Google Chrome](#google-chrome)
+  - [Microsoft Internet Explorer](#microsoft-internet-explorer)
 
 # BasicHTMLMetaTags
 
